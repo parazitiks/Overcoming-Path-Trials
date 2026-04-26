@@ -62,18 +62,6 @@
 
 # 
 
-# \## 🚀 Ссылки
-
-# 
-
-# \- 📖 \[Пользовательская документация (Wiki)](https://github.com/ВАШ\_АККАУНТ/Overcoming-Path-Trials/wiki)
-
-# \- 📄 \[Техническое задание](./Docs/Technical\_Specification.md)
-
-# \- 🐛 \[Сообщить об ошибке](https://github.com/ВАШ\_АККАУНТ/Overcoming-Path-Trials/issues)
-
-# 
-
 # \## 📅 План разработки
 
 # 
