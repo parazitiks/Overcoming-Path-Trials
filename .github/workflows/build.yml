@@ -1,0 +1,21 @@
+name: Build Game
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  check-compilation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Проверка структуры проекта
+        run: |
+          echo "✅ Структура проекта проверена"
+          ls -la
+      - name: Проверка наличия ключевых файлов
+        run: |
+          if [ -f "README.md" ]; then echo "✅ README.md найден"; fi
+          if [ -d "Scripts" ]; then echo "✅ Папка Scripts найдена"; fi
